@@ -94,11 +94,11 @@ bless_up = "bless up yourself and have a good day"
 reload = "reload this one my selector"
 
 #while True:
-if current_time > 800:
+if current_time < 1200:
 		engine.say(f"Good morning Nick, {time_now}, {current_temp_final}, {rain}, {bless_up}")
 		engine.runAndWait()
 
-elif current_time > 1200:
+elif current_time >= 1200:
 		engine.say(f"Good afternoon Nick, {time_now}, {current_temp_final}, {rain}, {reload}")
 		engine.runAndWait()
 
