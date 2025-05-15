@@ -95,15 +95,15 @@ reload = "reload this one my selector"
 
 #while True:
 if current_time < 1200:
-		engine.say(f"Good morning Nick, {time_now}, {current_temp_final}, {rain}, {bless_up}")
+		engine.say(f"Good morning, {time_now}, {current_temp_final}, {rain}, {bless_up}")
 		engine.runAndWait()
 
 elif current_time >= 1200:
-		engine.say(f"Good afternoon Nick, {time_now}, {current_temp_final}, {rain}, {reload}")
+		engine.say(f"Good afternoon, {time_now}, {current_temp_final}, {rain}, {reload}")
 		engine.runAndWait()
 
 elif current_time > 1800:
-		engine.say(f"Good evening Nick, {time_now}, {current_temp_final}, {rain}")
+		engine.say(f"Good evening, {time_now}, {current_temp_final}, {rain}")
 		engine.runAndWait()
 
 elif current_time > 2000:
